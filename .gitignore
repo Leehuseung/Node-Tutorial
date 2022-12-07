@@ -255,3 +255,8 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,node
+/.idea/misc.xml
+/.idea/modules.xml
+/NodeTutorial.iml
+/package-lock.json
+/.idea/vcs.xml
