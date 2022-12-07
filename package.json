@@ -15,5 +15,8 @@
     "url": "https://github.com/Leehuseung/NodeTutorial/issues"
   },
   "homepage": "https://github.com/Leehuseung/NodeTutorial#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
