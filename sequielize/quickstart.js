@@ -1,4 +1,4 @@
-const { Sequelize } = require('sequelize');
+const { Sequelize, DataTypes} = require('sequelize');
 
 // Option 1: Passing a connection URI
 // const sequelize = new Sequelize('sqlite::memory:') // Example for sqlite
@@ -26,6 +26,36 @@ async function testConnection() {
 }
 
 testConnection().then();
+
+
+const User = sequelize.define('employees', {
+    // Model attributes are defined here
+    firstName: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    lastName: {
+        type: DataTypes.STRING
+    }
+}, {
+    // Other model options go here
+});
+
+// `sequelize.define` also returns the model
+console.log(User === sequelize.models.User); // true
+
+/**
+ * 테이블 생성
+ * sync({ force: true }) and sync({ alter: true })
+ * 옵션에대해서 고려해보자.
+ */
+User.sync().then();
+
+
+
+
+
+
 
 
 
