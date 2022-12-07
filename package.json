@@ -1,6 +1,19 @@
 {
-  "name": "NodeTutorial",
+  "name": "nodetutorial",
   "version": "1.0.0",
-  "dependencies": {
-  }
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leehuseung/NodeTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leehuseung/NodeTutorial/issues"
+  },
+  "homepage": "https://github.com/Leehuseung/NodeTutorial#readme",
+  "description": ""
 }
