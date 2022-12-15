@@ -37,7 +37,7 @@ pm2 start app.js -i max
 pm2 scale app +1
 
 # 프로세스 숫자를 바꿀수 있다. (app은 ls에서 name임)
-pm2 scale app +1
+pm2 scale app 1
 
 # 프로세스 재시작
 pm2 reload app
