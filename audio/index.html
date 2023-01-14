@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="css/style.css"/>
     <title>Audio element</title>
 </head>
-
 <body>
-
-
     <div>
 <!--        <audio src="audio/sample.mp3" controls></audio>-->
         <audio id="audio" controls></audio>
+    </div>
+    <div>
+        <div>
+            구간반복 시작 : <span id="start">0</span>
+        </div>
+        <div>
+            구간반복 종료 : <span id="end">0</span>
+        </div>
     </div>
     <div>
         <input id="file" type="file">
@@ -28,7 +33,6 @@
         <!--        <source src="./audio/sample.ogg">-->
 <!--        <source src="./audio/sample.mp3">-->
 <!--    </audio>-->
-
 
     <script src="scripts/main.js"></script>
 </body>
