@@ -5,6 +5,13 @@ const client = new ftp.Client();
 const ftpHost = {
 };
 
+/**
+ * access : 연결 여부
+ *
+ * downloadTo : 다운로드
+ *
+ * uploadFrom : 업로드
+ */
 // (async () => {
 //     const accessInfo = await client.access(ftpHost);
 //     console.log('accessInfo', accessInfo);
